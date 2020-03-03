@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "158445332069",
+    "firebase_url": "https://restaurentfood.firebaseio.com",
+    "project_id": "restaurentfood",
+    "storage_bucket": "restaurentfood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158445332069:android:e037c73ec4ca90f954888c",
+        "android_client_info": {
+          "package_name": "com.dineout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158445332069-rcvogk7eh4eupe8ggickk84fo0pkeseo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpTrOmc2yKGsDhNtpMw9_BinWxtz-hS_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158445332069-rcvogk7eh4eupe8ggickk84fo0pkeseo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
