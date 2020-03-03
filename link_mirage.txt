@@ -1,0 +1,6 @@
+https://github.com/tapkey/android-sample-app/commit/800f7cbe083e769dd71f9a48fafc9752d5bab2de
+https://github.com/Malinskiy/SuperRecyclerView/pull/127/files
+https://invent.kde.org/kde/kdeconnect-android/commit/f684fbe8eff5e218600c0d8e1f4156be573b19c1
+
+good
+https://gist.github.com/alexjlockwood/c59e74e95037f6c230dde8a39c328970
