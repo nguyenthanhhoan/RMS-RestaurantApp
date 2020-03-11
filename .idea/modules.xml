@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Restaurant-Management-System.iml" filepath="$PROJECT_DIR$/.idea/Restaurant-Management-System.iml" group="Restaurant-Management-System" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Restaurant-Management-System/app" />
+      <module fileurl="file://$PROJECT_DIR$/RMS-RestaurantApp.iml" filepath="$PROJECT_DIR$/RMS-RestaurantApp.iml" group="RMS-RestaurantApp" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="RMS-RestaurantApp/app" />
     </modules>
   </component>
 </project>

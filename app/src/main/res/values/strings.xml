@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DineOut</string>
+    <string name="app_name">Food Now</string>
 
     <string name="Orderup">RMS3</string>
     <string-array name="employee_types">

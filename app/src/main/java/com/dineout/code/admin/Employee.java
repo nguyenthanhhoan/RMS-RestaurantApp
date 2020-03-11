@@ -1,7 +1,8 @@
 package com.dineout.code.admin;
 
 public class Employee {
-    String id, name, email, password, specialty, salary, type;
+    String id, name, email, password, specialty, type;
+    String salary;
 
     public Employee(String id, String name, String email, String password, String specialty, String salary, String type) {
         this.id = id;

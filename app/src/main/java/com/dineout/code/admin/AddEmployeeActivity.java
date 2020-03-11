@@ -239,6 +239,7 @@ public class AddEmployeeActivity extends AppCompatActivity {
 
 
                                 Toast.makeText(AddEmployeeActivity.this, "it value= " + eid.get(0), Toast.LENGTH_SHORT).show();
+//                                Employee e1 = new Employee(String.valueOf(eid.get(0)), name.getText().toString(), e, p, specialty.getText().toString(), salary.getText().toString(), type.getSelectedItem().toString());
                                 Employee e1 = new Employee(String.valueOf(eid.get(0)), name.getText().toString(), e, p, specialty.getText().toString(), salary.getText().toString(), type.getSelectedItem().toString());
 
                                 ref.child("Employee").child(String.valueOf(eid.get(0))).setValue(e1);

@@ -25,7 +25,7 @@
             android:label="Login" />
         <activity
             android:name=".code.admin.HomeActivity"
-            android:label="Order Up">
+            android:label="Food Now">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

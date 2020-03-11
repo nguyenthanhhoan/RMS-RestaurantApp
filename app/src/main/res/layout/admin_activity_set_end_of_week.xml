@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".code.admin.EndOfWeekActivitiy">
 
-    <android.support.v7.widget.AppCompatSpinner
+    <androidx.appcompat.widget.AppCompatSpinner
         android:id="@+id/SelectDayDropDown301"
         android:layout_width="wrap_content"
         android:layout_height="22dp"
@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EndOfWeekSubTitle301">
 
-    </android.support.v7.widget.AppCompatSpinner>
+    </androidx.appcompat.widget.AppCompatSpinner>
 
     <TextView
         android:id="@+id/EndOfWeekSubTitle301"

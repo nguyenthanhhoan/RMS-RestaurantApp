@@ -46,7 +46,7 @@
                 android:layout_marginLeft="3dp"
                 android:text="Employee Type" />
 
-            <android.support.v7.widget.AppCompatSpinner
+            <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/DropDownMenu300"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
 
                 android:spinnerMode="dialog">
 
-            </android.support.v7.widget.AppCompatSpinner>
+            </androidx.appcompat.widget.AppCompatSpinner>
 
             <TextView
                 android:id="@+id/specialityLabel300"
