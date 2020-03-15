@@ -7,6 +7,7 @@
 
     android:id="@+id/menulayout">
 
+
     <TextView
         android:id="@+id/textView_dishName"
         android:layout_width="161dp"
@@ -22,22 +23,6 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-
-    <TextView
-        android:id="@+id/textView2_description"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="0dp"
-
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="192dp"
-
-
-        android:layout_marginRight="0dp"
-        android:layout_toLeftOf="@id/imageView"
-        android:text="TextView"
-        android:textSize="14sp" />
 
     <ImageButton
         android:id="@+id/imageView"
@@ -65,6 +50,22 @@
         android:layout_marginRight="128dp"
         android:layout_toLeftOf="@id/imageView"
         android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignTop="@+id/dishPrice"
+
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@id/imageView"
+        android:text="TextView"
+        android:textSize="14sp" />
 
 
 </RelativeLayout>

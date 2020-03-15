@@ -1,6 +1,7 @@
 package com.dineout.code.kitchen;
 
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -11,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 //import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,7 +24,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.dineout.R;
+import com.dineout.code.admin.HomeActivity;
 import com.dineout.code.admin.LoginActivity;
+import com.dineout.code.hall.ManagerInterface;
 import com.dineout.code.kitchen.models.AttendanceDb;
 import com.dineout.code.kitchen.models.Chef;
 import com.dineout.code.kitchen.models.DishDb;
@@ -548,18 +552,44 @@ public class MainActivity extends AppCompatActivity
     //
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.logout) {
+        switch(item.getItemId()) {
+            case R.id.setting:
 
-            Intent intent;
-            intent = new Intent(this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-            startActivity(intent);
+                return true;
+            case R.id.logout:
+                Intent intent;
+                intent = new Intent(this, LoginActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+                startActivity(intent);
 
-            return true;
-
-        } else {
-            return super.onOptionsItemSelected(item);
+                return true;
+            case R.id.about:
+                Toast.makeText(this, R.string.about_toast, Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.exit:
+                final AlertDialog.Builder builderExit = new AlertDialog.Builder(this);
+                builderExit.setTitle("Exit");
+                builderExit.setMessage("Do you want to exit ??");
+                builderExit.setPositiveButton("Yes. Exit now!", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i){
+                        Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        intent.putExtra("EXIT", true);
+                        startActivity(intent);
+                    }
+                });
+                builderExit.setNegativeButton("Not now", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i){
+                        dialogInterface.dismiss();
+                    }
+                });
+                AlertDialog dialogExit = builderExit.create();
+                dialogExit.show();
+                return(true);
         }
+        return super.onOptionsItemSelected(item);
     }
 
 }

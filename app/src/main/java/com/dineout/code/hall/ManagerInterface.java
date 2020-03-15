@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.dineout.R;
+import com.dineout.code.admin.HomeActivity;
 import com.dineout.code.admin.LoginActivity;
 import com.dineout.code.hall.DB.Assignment;
 import com.dineout.code.hall.DB.Employee;
@@ -223,13 +224,26 @@ public class ManagerInterface extends AppCompatActivity {
                 Toast.makeText(this, R.string.about_toast, Toast.LENGTH_LONG).show();
                 return true;
             case R.id.exit:
-//                this.finish();
-//                System.exit(0);
-                final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setTitle("Exit");
-                builder.setMessage("Do you want to exit ??");
-                AlertDialog dialog = builder.create();
-                dialog.show();
+                final AlertDialog.Builder builderExit = new AlertDialog.Builder(this);
+                builderExit.setTitle("Exit");
+                builderExit.setMessage("Do you want to exit ??");
+                builderExit.setPositiveButton("Yes. Exit now!", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i){
+                        Intent intent = new Intent(ManagerInterface.this, HomeActivity.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        intent.putExtra("EXIT", true);
+                        startActivity(intent);
+                    }
+                });
+                builderExit.setNegativeButton("Not now", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i){
+                        dialogInterface.dismiss();
+                    }
+                });
+                AlertDialog dialogExit = builderExit.create();
+                dialogExit.show();
                 return(true);
         }
         return super.onOptionsItemSelected(item);
