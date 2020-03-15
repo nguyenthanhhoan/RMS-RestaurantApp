@@ -31,6 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".code.admin.AdminHomeActivity" android:label="Admin Home" android:screenOrientation="portrait" />
         <activity android:name=".code.admin.AdminPanelActivity" android:label="Admin Menu" android:screenOrientation="portrait" />
         <activity android:name=".code.admin.AddItem" android:label="Add Inventory Item" android:screenOrientation="portrait" />
         <activity android:name=".code.admin.Updateitem" android:label="Update Menu Item" android:screenOrientation="portrait" />

@@ -141,7 +141,7 @@ public class AddTableActivity extends AppCompatActivity {
                     ref1.child("Ids").child("Tableid").setValue(eid.get(1) + 1);
 
                     Toast.makeText(AddTableActivity.this, "Table has been added Successfully", Toast.LENGTH_SHORT).show();
-                    Intent it = new Intent(AddTableActivity.this, AdminPanelActivity.class);
+                    Intent it = new Intent(AddTableActivity.this, AdminHomeActivity.class);
                     eid.clear();
                     startActivity(it);
 

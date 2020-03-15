@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
+    <!--<item
         android:title="Logout"
         android:id="@+id/logout"
         android:orderInCategory="1"
-        app:showAsAction="always" />
+        app:showAsAction="always" />-->
+    <item
+        android:id="@+id/setting" android:icon="@android:drawable/ic_menu_preferences" app:showAsAction="always|withText" android:title="@string/setting"/>
+    <item
+        android:id="@+id/logout" android:icon="@android:drawable/ic_lock_power_off" app:showAsAction="always|withText" android:title="@string/logout">
+    </item>
+
+    <item
+        android:id="@+id/about" android:icon="@android:drawable/ic_dialog_info" app:showAsAction="never" android:title="@string/about">
+    </item>
+    <item
+        android:id="@+id/exit"  app:showAsAction="never" android:title="@string/exit">
+    </item>
 </menu>

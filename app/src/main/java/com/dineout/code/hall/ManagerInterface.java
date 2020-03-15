@@ -1,11 +1,13 @@
 package com.dineout.code.hall;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 //import android.support.annotation.NonNull;
 import androidx.annotation.NonNull;
 //import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.MenuInflater;
 import android.view.View;
@@ -202,19 +204,34 @@ public class ManagerInterface extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(android.view.MenuItem item) {
-        if(item.getItemId() == R.id.logout){
-            button8.setEnabled(true);
-            for(int i=1;i<Tables.size();i++) {
-                DatabaseReference del = FirebaseDatabase.getInstance().getReference("Assignment").child(Tables.get(i).getTableID());
-                del.removeValue();
-            }
-            Intent intent;
-            intent = new Intent(this, LoginActivity.class);
-            startActivity(intent);
-            return true;
+
+        switch(item.getItemId()) {
+            case R.id.setting:
+
+                return true;
+            case R.id.logout:
+                button8.setEnabled(true);
+                for(int i=1;i<Tables.size();i++) {
+                    DatabaseReference del = FirebaseDatabase.getInstance().getReference("Assignment").child(Tables.get(i).getTableID());
+                    del.removeValue();
+                }
+                Intent intent;
+                intent = new Intent(this, LoginActivity.class);
+                startActivity(intent);
+                return true;
+            case R.id.about:
+                Toast.makeText(this, R.string.about_toast, Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.exit:
+//                this.finish();
+//                System.exit(0);
+                final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setTitle("Exit");
+                builder.setMessage("Do you want to exit ??");
+                AlertDialog dialog = builder.create();
+                dialog.show();
+                return(true);
         }
-        else {
-            return super.onOptionsItemSelected(item);
-        }
+        return super.onOptionsItemSelected(item);
     }
 }

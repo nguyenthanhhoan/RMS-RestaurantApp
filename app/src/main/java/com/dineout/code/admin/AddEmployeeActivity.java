@@ -246,7 +246,7 @@ public class AddEmployeeActivity extends AppCompatActivity {
                                 ref.child("Ids").child("Employeeid").setValue(eid.get(0) + 1);
                                 Toast.makeText(AddEmployeeActivity.this, "Employee Added Successfully", Toast.LENGTH_SHORT).show();
                                 eid.clear();
-                                Intent i = new Intent(AddEmployeeActivity.this, AdminPanelActivity.class);
+                                Intent i = new Intent(AddEmployeeActivity.this, AdminHomeActivity.class);
                                 startActivity(i);
 
                             }

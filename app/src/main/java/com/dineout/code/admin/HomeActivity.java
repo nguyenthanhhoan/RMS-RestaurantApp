@@ -15,6 +15,10 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.admin_activity_home);
+        if (getIntent().getBooleanExtra("EXIT", false)) {
+            finish();
+            return;
+        }
     }
 
     //login for admin, chef, hall manager

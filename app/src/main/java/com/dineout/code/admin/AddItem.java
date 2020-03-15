@@ -62,7 +62,7 @@ public class AddItem extends AppCompatActivity {
             DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
             ref.child("Inventory").child(name.getText().toString()).setValue(i);
             Toast.makeText(this, "Item has been added to the Inventory", Toast.LENGTH_SHORT).show();
-            Intent it = new Intent(this, AdminPanelActivity.class);
+            Intent it = new Intent(this, AdminHomeActivity.class);
             startActivity(it);
             //finish this activity
         }

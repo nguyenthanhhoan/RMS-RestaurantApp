@@ -3,18 +3,19 @@ package com.dineout.code.admin;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-//import android.support.annotation.NonNull;
-import androidx.annotation.NonNull;
-//import android.support.v7.app.AppCompatActivity;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.dineout.R;
 import com.google.firebase.database.ChildEventListener;
@@ -31,13 +32,16 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 
+//import android.support.annotation.NonNull;
+//import android.support.v7.app.AppCompatActivity;
+
 
 /*
 Admin interface
 all junctinoalities corresponding to buttons
 */
 
-public class AdminPanelActivity extends AppCompatActivity {
+public class AdminHomeActivity extends AppCompatActivity {
     Button notificationButton;
     DatabaseReference databaseReference; //TABLE LIA
     FirebaseDatabase firebaseDatabase; //FIREBASE DATABASE KA OBJECT GET KIA
@@ -57,7 +61,7 @@ public class AdminPanelActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.admin_activity_admin_menu);
+        setContentView(R.layout.admin_activity_admin_home);
 
         notificationButton = (Button) findViewById(R.id.ViewNotificationsButton301);
         checkdate();
@@ -81,13 +85,13 @@ public class AdminPanelActivity extends AppCompatActivity {
 
 
         databaseReference.addValueEventListener(new ValueEventListener() {
-            com.dineout.code.admin.NotificationClass notification;
+            NotificationClass notification;
 
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot dsp : dataSnapshot.getChildren()) {
                     if (dsp != null) {
-                        notification = dsp.getValue(com.dineout.code.admin.NotificationClass.class);
+                        notification = dsp.getValue(NotificationClass.class);
                         if (notification != null && notification.getTime()!=null && notification.getItemName()!=null){
                             if (notification.isRead() == false) {
                                 notificationButton.setText("New Notification");
@@ -165,12 +169,12 @@ public class AdminPanelActivity extends AppCompatActivity {
         notificationButton.setTextColor(getResources().getColor(R.color.black));
         notificationButton.setText("Notifications");
         databaseReference.addValueEventListener(new ValueEventListener() {
-            com.dineout.code.admin.NotificationClass notification;
+            NotificationClass notification;
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot dsp : dataSnapshot.getChildren()) {
                     if (dsp != null) {
-                        notification = dsp.getValue(com.dineout.code.admin.NotificationClass.class);
+                        notification = dsp.getValue(NotificationClass.class);
                         if (notification != null && notification.getTime()!=null && notification.getItemName()!=null) {
                             if (notification.isRead() == false) {
                                 notificationButton.setText("New Notification");
@@ -203,7 +207,13 @@ public class AdminPanelActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
             case R.id.setting:
-
+                AlertDialog.Builder dialogBuilder =	new AlertDialog.Builder(this);
+                LayoutInflater inflater	= this.getLayoutInflater();
+                View dialogView	=	inflater.inflate(R.layout.admin_activity_admin_menu, (ViewGroup)findViewById(R.id.admin_home), false);
+                dialogBuilder.setView(dialogView);
+                dialogBuilder.setTitle("Quản trị nhà hàng");
+                AlertDialog b = dialogBuilder.create();
+                b.show();
                 return true;
             case R.id.logout:
                 Intent intent;
@@ -236,7 +246,7 @@ public class AdminPanelActivity extends AppCompatActivity {
                 builderExit.setPositiveButton("Yes. Exit now!", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i){
-                        Intent intent = new Intent(AdminPanelActivity.this, HomeActivity.class);
+                        Intent intent = new Intent(AdminHomeActivity.this, HomeActivity.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         intent.putExtra("EXIT", true);
                         startActivity(intent);

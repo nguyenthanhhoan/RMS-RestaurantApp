@@ -2,6 +2,16 @@
     <string name="app_name">Food Now</string>
 
     <string name="Orderup">RMS3</string>
+
+    <string name="count">Nothing is selected</string>
+    <string name="action_settings">Settings</string>
+    <string name="reset">Speak</string>
+    <string name="logout">Logout</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="about_toast">This App for Restaurant Manager by Vietnamese Student Group</string>
+    <string name="setting">Setting</string>
+
     <string-array name="employee_types">
         <item>Waiter</item>
         <item>Chef</item>

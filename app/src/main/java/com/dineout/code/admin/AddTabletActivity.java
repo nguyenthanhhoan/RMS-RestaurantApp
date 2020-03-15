@@ -113,7 +113,7 @@ public class AddTabletActivity extends AppCompatActivity {
                 ref.child("Tablet").child(String.valueOf(eid.get(2))).setValue(table);
                 ref.child("Ids").child("Tabletid").setValue(eid.get(2) + 1);
                 Toast.makeText(AddTabletActivity.this, "Tablet has been added successfully", Toast.LENGTH_SHORT).show();
-                Intent it = new Intent(AddTabletActivity.this, AdminPanelActivity.class);
+                Intent it = new Intent(AddTabletActivity.this, AdminHomeActivity.class);
                 eid.clear();
                 startActivity(it);
 

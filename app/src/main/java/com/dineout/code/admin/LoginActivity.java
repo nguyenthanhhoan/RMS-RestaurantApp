@@ -103,7 +103,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                             if (txtEmailLogin.getText().toString().equals("admin@gmail.com")) {
                                                 databaseReference.removeEventListener(this);
-                                                Intent i = new Intent(LoginActivity.this, AdminPanelActivity.class);
+                                                Intent i = new Intent(LoginActivity.this, AdminHomeActivity.class);
                                                 i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                                                 startActivity(i);
                                             }
