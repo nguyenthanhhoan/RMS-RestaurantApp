@@ -24,7 +24,7 @@
         android:layout_marginRight="0dp"
         android:layout_marginBottom="0dp"
         android:gravity="center"
-        android:text="Quantity has exceeded availibility!"
+        android:text="Số lượng đã vượt quá khả dụng!"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         android:textStyle="bold" />

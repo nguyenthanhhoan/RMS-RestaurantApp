@@ -26,7 +26,7 @@
             android:layout_marginRight="16dp"
             android:background="@drawable/mybutton"
             android:onClick="onClickReg"
-            android:text="Add Inventory Item" />
+            android:text="Thêm hàng vào kho" />
 
         <Button
             android:id="@+id/AddMenuItemButton301"
@@ -37,7 +37,7 @@
             android:layout_marginRight="16dp"
             android:background="@drawable/mybutton"
             android:onClick="onClickReg5"
-            android:text="Add Menu Item " />
+            android:text="Thêm mục menu " />
 
         <Button
             android:id="@+id/AddEmployeeButton301"
@@ -48,7 +48,7 @@
             android:layout_marginRight="16dp"
             android:background="@drawable/mybutton"
             android:onClick="onClickReg2"
-            android:text="Add Employee" />
+            android:text="Thêm nhân viên" />
 
         <Button
             android:id="@+id/AddTableButton301"
@@ -59,7 +59,7 @@
             android:layout_marginRight="16dp"
             android:background="@drawable/mybutton"
             android:onClick="onClickReg4"
-            android:text="Add Table" />
+            android:text="Thêm bàn" />
 
         <Button
             android:id="@+id/AddTabletButton301"
@@ -71,7 +71,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/mybutton"
             android:onClick="onClickReg3"
-            android:text="Add Tablet" />
+            android:text="Thêm Tablet" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

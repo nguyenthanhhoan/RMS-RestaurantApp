@@ -50,7 +50,7 @@
         android:layout_marginTop="144dp"
         android:layout_marginRight="142dp"
         android:gravity="right"
-        android:text="DishQuantity"
+        android:text="Số lượng món"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -137,7 +137,7 @@
         android:layout_height="71dp"
         android:layout_marginTop="310dp"
         android:gravity="center"
-        android:text="Ingridients"
+        android:text="Thành phần"
         android:textSize="18sp"
         android:textStyle="bold" />
     <ListView

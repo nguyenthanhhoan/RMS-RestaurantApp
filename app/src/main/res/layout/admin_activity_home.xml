@@ -54,7 +54,7 @@
             android:layout_weight="0.5"
             android:background="@drawable/mybutton"
             android:onClick="onClickReg"
-            android:text="Login as Employee" />
+            android:text="Nhân viên" />
 
         <Button
             android:id="@+id/LoginAsCustomerButton301"
@@ -66,7 +66,7 @@
             android:layout_weight="0.5"
             android:background="@drawable/mybutton"
             android:onClick="onClickReg2"
-            android:text="Show Customer Interface" />
+            android:text="Khách hàng" />
     </LinearLayout>
 
 

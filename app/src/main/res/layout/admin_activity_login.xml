@@ -125,7 +125,7 @@
             android:background="@drawable/mybutton"
             android:onClick="btnUserLogin_Click"
 
-            android:text="Login"
+            android:text="Đăng nhập"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.794"

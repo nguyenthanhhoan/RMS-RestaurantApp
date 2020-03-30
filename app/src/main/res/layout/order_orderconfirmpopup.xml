@@ -24,7 +24,7 @@
         android:layout_marginRight="0dp"
         android:layout_marginBottom="0dp"
         android:gravity="center"
-        android:text="Proceed To Check Out?"
+        android:text="Tiến hành kiểm tra Thanh toán?"
         android:textColor="@android:color/black"
         android:textSize="30sp" />
 

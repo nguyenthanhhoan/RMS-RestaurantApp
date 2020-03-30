@@ -31,7 +31,7 @@
         android:layout_marginRight="16dp"
         android:background="#f56653"
         android:onClick="onLoadBalancingClicked"
-        android:text="Load Balancing"
+        android:text="Cân bằng"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,7 +47,7 @@
         android:layout_marginRight="44dp"
         android:background="#f56653"
         android:onClick="openAttendance"
-        android:text="Attendance"
+        android:text="Người có mặt"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/lbalance"
         app:layout_constraintStart_toStartOf="parent"

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
         android:layout_marginLeft="10dp"
-        android:text="Table Id: "
+        android:text="Mã bàn: "
         android:textSize="20dp" />
 
     <TextView
@@ -33,7 +33,7 @@
         android:id="@+id/orderid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Order ID: "
+        android:text="Mã hóa đơn: "
         android:layout_marginLeft="10dp"
         android:layout_below="@id/Tableid4"
         android:textSize="20dp"/>
@@ -55,7 +55,7 @@
         android:id="@+id/serverid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Server ID: "
+        android:text="Mã phục vụ: "
         android:layout_marginLeft="10dp"
         android:layout_below="@id/orderid"
         android:textSize="20dp"/>

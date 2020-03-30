@@ -22,7 +22,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Add Employee"
+                android:text="Thêm Nhân viên"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:gravity="center_horizontal"
@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:text="Name" />
+                android:text="Tên" />
 
             <EditText
                 android:id="@+id/AddEmployeeName300"
@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:text="Employee Type" />
+                android:text="Loại nhân viên" />
 
             <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/DropDownMenu300"
@@ -64,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:enabled="false"
-                android:text="Specialty" />
+                android:text="Chuyên môn" />
 
             <EditText
                 android:id="@+id/AddSpeciality300"
@@ -77,7 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:text="Salary" />
+                android:text="Mức lương" />
 
             <EditText
                 android:id="@+id/AddEmployeeSalary300"
@@ -89,7 +89,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:text="Email Address" />
+                android:text="Địa chỉ Email" />
 
             <EditText
                 android:id="@+id/AddEmployeeEmail300"
@@ -101,7 +101,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:text="Password" />
+                android:text="Mật khẩu" />
 
             <EditText
                 android:id="@+id/AddEmployeePassword300"
@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/mybutton"
 
-                android:text="Add Employee" />
+                android:text="Thêm Nhân vien" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

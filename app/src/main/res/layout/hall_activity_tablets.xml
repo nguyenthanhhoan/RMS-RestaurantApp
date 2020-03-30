@@ -13,7 +13,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="serif"
-        android:text="Tablets"
+        android:text="Danh sách Tablet"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="26sp"

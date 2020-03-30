@@ -32,7 +32,7 @@
         android:layout_marginBottom="4dp"
         android:background="@android:color/holo_orange_dark"
         android:onClick="doneClick"
-        android:text="Done"
+        android:text="Hoàn thành"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

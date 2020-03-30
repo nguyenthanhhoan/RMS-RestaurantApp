@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
-        android:text="Id: "
+        android:text="Mã bàn: "
         android:textSize="20dp" />
 
    <TextView
@@ -30,7 +30,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_below="@+id/Tableid"
-           android:text="Capacity: "
+           android:text="Sức chứa: "
            android:layout_marginTop="0dp"
            android:textSize="20dp" />
 
@@ -67,7 +67,7 @@
            android:layout_marginTop="0dp"
            android:backgroundTint="@android:color/holo_orange_dark"
            android:fontFamily="serif"
-           android:text="Book"
+           android:text="Đã đặt"
            android:textSize="12dp"
            android:textStyle="bold" />
 
@@ -79,7 +79,7 @@
            android:layout_marginTop="0dp"
            android:backgroundTint="@android:color/holo_orange_dark"
            android:fontFamily="serif"
-           android:text="Free"
+           android:text="Trống"
            android:textSize="12dp"
            android:textStyle="bold"
            android:layout_below="@+id/TableCapacity"
@@ -94,7 +94,7 @@
            android:layout_marginTop="0dp"
            android:backgroundTint="@android:color/holo_orange_dark"
            android:fontFamily="serif"
-           android:text="Occupy"
+           android:text="Đang dùng"
            android:textSize="12dp"
            android:textStyle="bold"
            android:layout_below="@+id/TableCapacity"

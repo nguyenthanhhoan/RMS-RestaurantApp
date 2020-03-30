@@ -14,12 +14,52 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dineout/code/hall/ManagerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dineout/code/hall/ManagerInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dineout/code/kitchen/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dineout/code/kitchen/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_employee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_employee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_menu_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_menu_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_table.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_table.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_tablet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_add_tablet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_admin_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_admin_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_admin_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_admin_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_notifications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_notifications.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_set_end_of_week.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_set_end_of_week.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_updateitem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_activity_updateitem.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_ingredient_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_ingredient_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/admin_ingredient_row_red.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/admin_ingredient_row_red.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/billing_activity_confirm_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/billing_activity_confirm_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/billing_activity_feedback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/billing_activity_feedback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/billing_pending_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/billing_pending_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_manager_interface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_manager_interface.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_ready_to_serve_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_ready_to_serve_orders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_receive_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_receive_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_table_setup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_table_setup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_tables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_tablets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_tablets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_tracking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_tracking.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_view_completed_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_activity_view_completed_orders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_bill_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_bill_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_completedorder_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_completedorder_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_readyorder_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_readyorder_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_table_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_table_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_tablet_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_tablet_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/hall_track_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/hall_track_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_activity_attendance2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_activity_attendance2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_activity_cooks_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_activity_cooks_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_layout_orders_of_cook.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_layout_orders_of_cook.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_prompts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/kitchen_prompts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_activity_cart_list_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_activity_cart_list_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_activity_set_quantity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_activity_set_quantity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_activity_time.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_activity_time.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_activity_welcome_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_activity_welcome_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_orderconfirmpopup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_orderconfirmpopup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/order_quantityinvalidpopup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/order_quantityinvalidpopup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/reporting_activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/reporting_activity_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

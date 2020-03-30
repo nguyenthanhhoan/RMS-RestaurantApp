@@ -42,7 +42,7 @@
             android:layout_marginRight="16dp"
             android:background="@drawable/mybutton"
             android:onClick="onClickReg1"
-            android:text="View Ingredients" />
+            android:text="Xem thành phần" />
 
         <Button
             android:id="@+id/ViewNotificationsButton301"
@@ -53,7 +53,7 @@
             android:layout_marginRight="16dp"
             android:background="@drawable/mybutton"
 
-            android:text="Notifications " />
+            android:text="Thông báo " />
 
         <Button
             android:id="@+id/SetEndOfWeekButton301"
@@ -64,7 +64,7 @@
             android:layout_marginRight="16dp"
             android:background="@drawable/mybutton"
             android:onClick="onClickReg6"
-            android:text="Set End of Week " />
+            android:text="Đặt ngày cuối tuần " />
 
     </LinearLayout>
 
