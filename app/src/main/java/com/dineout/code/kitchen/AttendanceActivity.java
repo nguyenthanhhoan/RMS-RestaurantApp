@@ -38,7 +38,7 @@ public class AttendanceActivity extends AppCompatActivity
         //setContentView(R.layout.kitchen_activity_main);
         actionBar=getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ffff8800")));
-        actionBar.setTitle(Html.fromHtml("<font color='#ffffff'>AROS </font>"));
+        actionBar.setTitle(Html.fromHtml("<font color='#ffffff'>Bếp Trưởng </font>"));
 
         //getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.cardview_dark_background)));
         //ExtractChefsFromDb();

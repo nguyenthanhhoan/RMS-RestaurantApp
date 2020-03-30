@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.kitchen_activity_main);
         actionBar=getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ffff8800")));
-        actionBar.setTitle(Html.fromHtml("<font color='#ffffff'>AROS </font>"));
+        actionBar.setTitle(Html.fromHtml("<font color='#ffffff'>Bếp Trưởng</font>"));
         progressDialog = new ProgressDialog(MainActivity.this);
 
         //Initializing Database

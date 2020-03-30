@@ -28,7 +28,7 @@
         <item>Sunday</item>
 
     </string-array>
-    <string name="promptEmployee">Select Employee Type</string>
+    <string name="promptEmployee">Chọn loại nhân viên</string>
 
 
     <!--KITCHEN-->
