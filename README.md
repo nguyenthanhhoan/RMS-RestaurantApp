@@ -65,6 +65,7 @@ The login credentials for Admin, Hall and Kitchen Manager's interfaces are:
 - admin@gmail.com
 - chef@gmail.com
 - hallmanager@gmail.com
+- hoannguyen1609@gmail.com
 
 All have the password: 123456
 
@@ -78,6 +79,7 @@ It was really fun to work with these geeks to get the job done:
 * [Ramsha Siddiqui](https://github.com/Rmsharks4)
 * [Shafaq Arshad](https://github.com/Shafaq15)
 * [Marriam Sajid](https://github.com/marriamsajid)
+* [Hoan Nguyen](https://github.com/nguyenthanhhoan)
 ---
 
 ## My Contact
@@ -101,4 +103,4 @@ If you face any issue, you can create a new issue in the Issues Tab and I will b
 ## License
 [![MIT](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=style&label=License&maxAge=2592000)](../master/LICENSE)
 
-Copyright (c) 2018-present, harismuneer, Hassaan-Elahi, mahnoorkashif, shafaq15, rmsharks4, marriamsajid                                                        
+Copyright (c) 2018-present, harismuneer, Hassaan-Elahi, mahnoorkashif, shafaq15, rmsharks4, marriamsajid, hoannguyen                                                        
